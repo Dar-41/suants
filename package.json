@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cd frontend && npm install && npm run build && cd .. && rm -rf out && cp -r frontend/out out",
-    "deploy": "npx wrangler deploy"
+    "build": "echo 'Static export already built in out/'",
+    "deploy": "wrangler deploy"
   },
   "devDependencies": {
     "wrangler": "^4.152.0"
