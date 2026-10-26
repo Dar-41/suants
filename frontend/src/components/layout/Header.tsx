@@ -85,14 +85,21 @@ export function Header() {
             <div>
               <div className="flex items-center gap-2">
                 <span className="font-bold text-sm tracking-tight text-white font-mono">
-                  QUANT RESEARCH LAB
+                  SUANTS
                 </span>
                 <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-cyan-950 text-cyan-400 border border-cyan-800/40">
                   v2.0
                 </span>
+                <span className="hidden sm:inline-block text-[11px] font-mono text-slate-400">
+                  // QUANT LAB
+                </span>
               </div>
-              <p className="text-[10px] text-slate-400 font-mono">
-                Institutional Econometrics & Alpha Terminal
+              <p className="text-[10px] text-slate-400 font-mono flex items-center gap-1.5">
+                <span>Institutional Econometrics &amp; Alpha Terminal</span>
+                <span>•</span>
+                <span className="text-cyan-300 font-medium bg-cyan-950/70 px-1.5 py-0.2 rounded border border-cyan-500/30">
+                  Made by Darsh Sheth
+                </span>
               </p>
             </div>
           </div>

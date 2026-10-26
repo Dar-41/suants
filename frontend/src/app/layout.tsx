@@ -13,9 +13,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Quant Research Lab // Institutional Econometric Terminal",
+  title: "SUANTS // Quant Research Lab — Made by Darsh Sheth",
   description:
-    "Production-grade quantitative research laboratory implementing 10 landmark empirical finance papers with 2D/3D visualizations and rigorous econometric testing.",
+    "Production-grade quantitative research laboratory by SUANTS (Made by Darsh Sheth) implementing 10 landmark empirical finance papers with 2D/3D visualizations and rigorous econometric testing.",
 };
 
 export default function RootLayout({

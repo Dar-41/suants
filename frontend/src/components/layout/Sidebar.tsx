@@ -117,9 +117,14 @@ export function Sidebar() {
       </div>
 
       {/* Sidebar Footer info */}
-      <div className="p-3 border-t border-[#1E293B] bg-[#090D16]/80 text-[11px] font-mono text-slate-500 flex items-center justify-between">
-        <span>BLOOMBERG-APPLE UI</span>
-        <span className="text-cyan-400">EMPIRICAL ACCURACY 100%</span>
+      <div className="p-3 border-t border-[#1E293B] bg-[#090D16]/80 text-[10px] font-mono text-slate-400 flex flex-col gap-1">
+        <div className="flex items-center justify-between">
+          <span className="text-cyan-400 font-bold tracking-wider">SUANTS TERMINAL</span>
+          <span className="text-emerald-400">ACCURACY 100%</span>
+        </div>
+        <div className="text-[10px] text-slate-400">
+          Quant Lab by <span className="text-cyan-300 font-semibold">Darsh Sheth</span>
+        </div>
       </div>
     </aside>
   );
