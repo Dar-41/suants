@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+backend/venv/
+__pycache__/
+*.pyc
+
+# Next.js
+.next/
+out/
+
+# Environment and logs
+.env*
+*.log
+.DS_Store
